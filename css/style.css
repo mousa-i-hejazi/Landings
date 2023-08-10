@@ -1,0 +1,791 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero-section {
+    background-image: url(../images/rectangle-17.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0;
+    height: 120vh;
+    width: 100%;
+    padding: 20px;
+    position: relative;
+    z-index: 0;
+}
+
+.hero-section .overlay {
+    background-color: #0000FD;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    opacity: 0.3;
+}
+
+.hero-section .navbar {
+    position: absolute;
+    z-index: 3;
+    width: 90%;
+}
+
+.hero-section .navbar .navbar-brand {
+    color: #D9F0FF;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.hero-section .navbar .nav-item .nav-link {
+    color: #D9F0FF;
+}
+
+.hero-section .navbar .navbar-nav {
+    margin-top: 20px;
+    margin-right: 130px;
+}
+
+.hero-section .text {
+    padding: 220px 270px;
+    position: absolute;
+    z-index: 3;
+}
+
+.hero-section .text h1 {
+    font-size: 80px;
+    color: #fff;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+.hero-section .text p {
+    font-size: 22px;
+    color: #fff;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+.hero-section .text .btn {
+    color: #fff;
+    background-color: #325DFF;
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.sec-1 .content{
+    padding: 60px 50px;
+}
+.sec-1 .content h1{
+    font-weight: lighter;
+    font-size: 50px;
+    color: #000;
+    margin-bottom: 30px;
+}
+.sec-1 .content p{
+    color: #707070;
+    font-size: 19px;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+.sec-1 .content button{
+    color: #fff;
+    background-color: #325DFF;
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.sec-1 img{
+    width: 100%;
+    margin-left: 116px;
+}
+.sec-2{
+    padding: 80px;
+    background-color: #FAFAFA;
+}
+.sec-2 .content h1{
+    font-weight: lighter;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.sec-2 .content p{
+    color: #707070;
+    font-weight: lighter;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.sec-2 .card{
+    padding: 30px 50px;
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+.sec-2 .card img{
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.sec-2 .card h5{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.sec-2 .card p{
+    color: #707070;
+    font-weight: lighter;
+    font-size: 18px;
+}
+.sec-3{
+    background-image: url(../images/Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0;
+    position: relative;
+    z-index: 0;
+}
+.sec-3 .overlay{
+    background-color: #1574B9;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    opacity: 0.4;
+}
+.sec-3 .content{
+    position: relative;
+    z-index: 3;
+    padding: 200px;
+}
+.sec-3 .content img{
+    margin-bottom: 50px;
+}
+.sec-3 .content h3{
+    color: #fff;
+    font-weight: lighter;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+.sec-3 .content p{
+    font-weight: lighter;
+    color: #fff;
+    font-size: 18px;
+}
+.sec-4{
+    padding: 50px;
+    background-color: #FAFAFA;
+}
+.sec-4 h1{
+    font-weight: lighter;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.sec-4 p{
+    font-weight: lighter;
+    font-size: 18px;
+    color: #707070;
+}
+.sec-5 .content{
+    padding: 60px 50px;
+}
+.sec-5 .content h1{
+    font-weight: lighter;
+    font-size: 50px;
+    color: #000;
+    margin-bottom: 30px;
+}
+.sec-5 .content p{
+    color: #707070;
+    font-size: 19px;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+.sec-5 .content button{
+    color: #fff;
+    background-color: #325DFF;
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.sec-5 img{
+    width: 100%;
+    margin-left: 116px;
+}
+.sec-6 img{
+    width: 100%;
+    margin-left: -116px;
+}
+.sec-6 .content{
+    padding: 60px 50px;
+}
+.sec-6 .content h1{
+    font-weight: lighter;
+    font-size: 50px;
+    color: #000;
+    margin-bottom: 30px;
+}
+.sec-6 .content p{
+    color: #707070;
+    font-size: 19px;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+.sec-6 .content button{
+    color: #fff;
+    background-color: #325DFF;
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.sec-7 .content{
+    padding: 60px 50px;
+}
+.sec-7 .content h1{
+    font-weight: lighter;
+    font-size: 50px;
+    color: #000;
+    margin-bottom: 30px;
+}
+.sec-7 .content p{
+    color: #707070;
+    font-size: 19px;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+.sec-7 .content button{
+    color: #fff;
+    background-color: #325DFF;
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.sec-7 img{
+    width: 100%;
+    margin-left: 116px;
+}
+footer{
+    color: #fff;
+    text-align: center;
+    background-color: #325DFF;
+    padding: 50px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+@media (max-width: 1199.98px) {
+    .hero-section .navbar {
+        width: 90%;
+        margin-left: 70px;
+    }
+
+    .hero-section .text {
+        padding: 220px 250px;
+    }
+
+    .hero-section .text h1 {
+        font-size: 60px;
+        margin-bottom: 40px;
+    }
+
+    .hero-section .text p {
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+
+    .hero-section .text .btn {
+        padding: 12px 38px;
+        font-size: 12px;
+    }
+    .sec-1 .content{
+        padding: 50px 50px;
+    }
+    .sec-1 .content h1{
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    .sec-1 .content p{
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .sec-1 .content button{
+        padding: 10px 35px;
+        font-size: 10px;
+    }
+    .sec-1 img{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .sec-2 .content p{
+        font-size: 16px;
+    }
+    .sec-2 .card{
+        padding: 30px 10px;
+        margin-bottom: 20px;
+    }
+    .sec-2 .card img{
+        width: 30%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .sec-2 .card h5{
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .sec-2 .card p{
+        font-size: 16px;
+    }
+    .sec-3 .content {
+        padding: 200px 50px;
+    }
+    .sec-3 .content p{
+        font-size: 15px;
+    }
+    .sec-4 h1{
+        font-size: 30px;
+    }
+    .sec-4 p{
+        font-size: 16px;
+    }
+    .sec-5 .content{
+        padding: 50px 50px;
+    }
+    .sec-5 .content h1{
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    .sec-5 .content p{
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .sec-5 .content button{
+        padding: 10px 35px;
+        font-size: 10px;
+    }
+    .sec-5 img{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .sec-6 img{
+        width: 100%;
+        margin-left: -20px;
+    }
+    .sec-6 .content{
+        padding: 50px 50px;
+    }
+    .sec-6 .content h1{
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    .sec-6 .content p{
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .sec-6 .content button{
+        padding: 10px 35px;
+        font-size: 10px;
+    }
+    .sec-7 .content{
+        padding: 50px 50px;
+    }
+    .sec-7 .content h1{
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    .sec-7 .content p{
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .sec-7 .content button{
+        padding: 10px 35px;
+        font-size: 10px;
+    }
+    .sec-7 img{
+        width: 100%;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .hero-section .navbar {
+        width: 80%;
+    }
+
+    .hero-section .text {
+        padding: 250px 140px;
+    }
+
+    .hero-section .text h1 {
+        font-size: 55px;
+        margin-bottom: 30px;
+    }
+
+    .hero-section .text p {
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+
+    .hero-section .text .btn {
+        padding: 12px 35px;
+        font-size: 10px;
+    }
+    .sec-1 .content{
+        padding: 50px 30px;
+    }
+    .sec-1 .content h1{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .sec-1 .content p{
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+    .sec-1 .content button{
+        padding: 10px 30px;
+        font-size: 10px;
+    }
+    .sec-1 img{
+        width: 100%;
+        margin-left: 28px;
+    }
+    .sec-2 .content h1{
+        font-size: 30px;
+    }
+    .sec-2 .content p{
+        font-size: 14px;
+    }
+    .sec-2 .card p{
+        font-size: 18px;
+    }
+    .sec-4 h1{
+        font-size: 25px;
+    }
+    .sec-4 p{
+        font-size: 15px;
+    }
+    .sec-5 .content{
+        padding: 50px 30px;
+    }
+    .sec-5 .content h1{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .sec-5 .content p{
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+    .sec-5 .content button{
+        padding: 10px 30px;
+        font-size: 10px;
+    }
+    .sec-5 img{
+        width: 100%;
+        margin-left: 28px;
+    }
+    .sec-6 img{
+        width: 100%;
+        margin-left: -28px;
+    }
+    .sec-6 .content{
+        padding: 50px 30px;
+    }
+    .sec-6 .content h1{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .sec-6 .content p{
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+    .sec-6 .content button{
+        padding: 10px 30px;
+        font-size: 10px;
+    }
+    .sec-7 .content{
+        padding: 50px 30px;
+    }
+    .sec-7 .content h1{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .sec-7 .content p{
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+    .sec-7 .content button{
+        padding: 10px 30px;
+        font-size: 10px;
+    }
+    .sec-7 img{
+        width: 100%;
+        margin-left: 28px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .hero-section .navbar {
+        width: 80%;
+        margin-left: 20px;
+    }
+
+    .hero-section .text {
+        padding: 250px 80px;
+    }
+
+    .hero-section .text h1 {
+        font-size: 42px;
+        margin-bottom: 30px;
+    }
+
+    .hero-section .text p {
+        font-size: 12px;
+        margin-bottom: 40px;
+    }
+
+    .hero-section .text .btn {
+        padding: 12px 38px;
+        font-size: 10px;
+    }
+    .sec-1 .content{
+        padding: 20px 20px;
+    }
+    .sec-1 .content h1{
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+    .sec-1 .content p{
+        font-size: 5px;
+        margin-bottom: 30px;
+    }
+    .sec-1 .content button{
+        padding: 8px 15px;
+        font-size: 2px;
+    }
+    .sec-1 img{
+        width: 100%;
+        margin-left: 22px;
+    }
+    .sec-2{
+        padding: 80px 50px;
+    }
+    .sec-2 .content h1{
+        font-size: 25px;
+    }
+    .sec-2 .content p{
+        font-size: 11px;
+    }
+    .sec-2 .card{
+        padding: 30px 50px;
+    }
+    .sec-2 .card h5{
+        font-size: 22px;
+    }
+    .sec-2 .card p{
+        font-size: 24px;
+    }
+    .sec-3 .content h3{
+        font-size: 25px;
+    }
+    .sec-3 .content {
+        padding: 200px 40px;
+    }
+    .sec-3 .content p{
+        font-size: 11px;
+    }
+    .sec-4{
+        padding: 50px 20px;
+    }
+    .sec-4 h1{
+        font-size: 25px;
+    }
+    .sec-4 p{
+        font-size: 12px;
+    }
+    .sec-5 .content{
+        padding: 20px 20px;
+    }
+    .sec-5 .content h1{
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+    .sec-5 .content p{
+        font-size: 5px;
+        margin-bottom: 30px;
+    }
+    .sec-5 .content button{
+        padding: 8px 15px;
+        font-size: 2px;
+    }
+    .sec-5 img{
+        width: 100%;
+        margin-left: 22px;
+    }
+    .sec-6 img{
+        width: 100%;
+        margin-left: -22px;
+    }
+    .sec-6 .content{
+        padding: 20px 20px;
+    }
+    .sec-6 .content h1{
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+    .sec-6 .content p{
+        font-size: 5px;
+        margin-bottom: 30px;
+    }
+    .sec-6 .content button{
+        padding: 8px 15px;
+        font-size: 2px;
+    }
+    .sec-7 .content{
+        padding: 20px 20px;
+    }
+    .sec-7 .content h1{
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+    .sec-7 .content p{
+        font-size: 5px;
+        margin-bottom: 30px;
+    }
+    .sec-7 .content button{
+        padding: 8px 15px;
+        font-size: 2px;
+    }
+    .sec-7 img{
+        width: 100%;
+        margin-left: 22px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .hero-section .text {
+        padding: 250px 60px;
+    }
+
+    .hero-section .text h1 {
+        font-size: 38px;
+        margin-bottom: 30px;
+    }
+
+    .hero-section .text p {
+        font-size: 11px;
+        margin-bottom: 40px;
+    }
+
+    .hero-section .text .btn {
+        padding: 10px 35px;
+        font-size: 10px;
+    }
+    .sec-1 .content{
+        padding: 20px 20px;
+    }
+    .sec-1 .content h1{
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+    .sec-1 .content p{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .sec-1 .content button{
+        padding: 10px 35px;
+        font-size: 2px;
+    }
+    .sec-1 img{
+        width: 100%;
+        margin-left: -10px;
+        padding: 0;
+    }
+    .sec-2{
+        padding: 80px 40px;
+    }
+    .sec-2 .content h1{
+        font-size: 22px;
+    }
+    .sec-2 .content p{
+        font-size: 10px;
+    }
+    .sec-2 .card{
+        padding: 30px 40px;
+    }
+    .sec-2 .card h5{
+        font-size: 20px;
+    }
+    .sec-2 .card p{
+        font-size: 24px;
+    }
+    .sec-3 .content p{
+        font-size: 10px;
+    }
+    .sec-4 h1{
+        font-size: 22px;
+    }
+    .sec-4 p{
+        font-size: 11px;
+    }
+    .sec-5 .content{
+        padding: 20px 20px;
+    }
+    .sec-5 .content h1{
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+    .sec-5 .content p{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .sec-5 .content button{
+        padding: 10px 35px;
+        font-size: 2px;
+    }
+    .sec-5 img{
+        width: 100%;
+        margin-left: -10px;
+        padding: 0;
+    }
+    .sec-6 img{
+        width: 100%;
+        margin-left: -10px;
+        padding: 0;
+    }
+    .sec-6 .content{
+        padding: 20px 20px;
+    }
+    .sec-6 .content h1{
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+    .sec-6 .content p{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .sec-6 .content button{
+        padding: 10px 35px;
+        font-size: 2px;
+    }
+    .sec-7 .content{
+        padding: 20px 20px;
+    }
+    .sec-7 .content h1{
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+    .sec-7 .content p{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .sec-7 .content button{
+        padding: 10px 35px;
+        font-size: 2px;
+    }
+    .sec-7 img{
+        width: 100%;
+        margin-left: -10px;
+        padding: 0;
+    }
+}
